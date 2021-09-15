@@ -74,6 +74,8 @@ function gerarTabela(dadosJson) {
 
     let resultado = document.getElementById('resultado')
 
+    resultado.innerText = ""
+
     let table = document.createElement('table')
 
     table.className = "table table-hover"
